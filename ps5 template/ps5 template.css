@@ -1,0 +1,248 @@
+BEGIN PS5 Controller Styling
+
+.controller.custom{
+    background url(Basebase_b-w.png); 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom.disconnected { 
+    background url(Basedisconnected_b-w.png);
+}
+
+.custom.disconnected div {
+    display none;
+}
+
+ .custom .triggers{ 
+    position absolute;
+    background-repeatno-repeat;
+} 
+
+.custom .trigger{
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .trigger.left{ 
+    height 1080px;
+    width 1440px;
+    background url(Trigger-BumperL2_b-w.png);
+    position absolute;
+    background-repeatno-repeat;
+}
+
+.custom .trigger.right{
+    height 1080px;
+    width 1440px;
+    background url(Trigger-BumperR2_b-w.png);
+    position absolute;
+    background-repeatno-repeat;
+}
+
+.custom .bumper{
+    opacity 0;
+}
+
+.custom .bumper.pressed{ 
+    opacity 1;
+}
+
+.custom .bumper.right{
+    height 1080px;
+    width 1440px;
+    background url(Trigger-BumperR1_b-w.png);
+    position absolute;
+    background-repeatno-repeat;
+}
+
+.custom .bumper.left{
+    height 1080px;
+    width 1440px;
+    background url(Trigger-BumperL1_b-w.png);
+    position absolute;
+    background-repeatno-repeat;
+}
+
+.custom .arrows{
+    position absolute;
+    width 205px;
+    height 19px;
+    top 250px;
+    left 291px;
+    background-repeatno-repeat;
+}
+
+.custom .back{
+    opacity 0;
+    position absolute;
+}
+
+.custom .start{
+    opacity 0;
+    position absolute;
+}
+
+.custom .back.pressed{
+    height 1080px;
+    width 1440px;
+    left -291px;
+    top -250px;
+    background url(ButtonsShare_b-w.png);
+    position absolute;
+    opacity 1;
+} 
+
+.custom .start.pressed{
+    height 1080px;
+    width 1440px;
+    left -291px;
+    top -250px;
+    background url(ButtonsOptions_b-w.png);
+    opacity 1;
+}
+
+.custom .abxy{
+    position absolute;
+    background-repeatno-repeat;
+}
+
+.custom .button{
+    position absolute;
+}
+
+.custom .button.pressed{
+    background-position-y -00px;
+    margin-top 0px;
+}
+
+.custom .a.pressed{
+    background url(Face-DpadX_b-w.png); 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .b.pressed{
+    background url(Face-DpadO_b-w.png);
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .x.pressed{
+    background url(Face-DpadS_b-w.png); 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .y.pressed{
+    background url(Face-DpadT_b-w.png) ; 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .meta.pressed{
+    background url(Buttonsmeta_b-w.png) ; 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .sticks{    
+    left 443px;
+    top 505px;
+    position absolute;
+    background-repeatno-repeat;
+}
+
+.custom .stick.{
+    position absolute;
+}
+
+.custom .stick.pressed.left{
+    position absolute;
+    background url(SticksL3_b-w.png);
+    height 152px;
+    width 152px;
+    background-repeatno-repeat;
+}
+
+.custom .stick.pressed.right{
+    position absolute;
+    background url(SticksR3_b-w.png);
+    height 152px;
+    width 152px;
+    background-repeatno-repeat;
+}
+
+.custom .stick.left{
+    position absolute;
+    background url(SticksLS_b-w.png);
+    height 152px;
+    width 152px;
+    background-repeatno-repeat;
+}
+
+.custom .stick.right{
+    position absolute;
+    background url(SticksRS_b-w.png);
+    left 405px;
+    top 1px;
+    height 152px;
+    width 152px;
+    background-repeatno-repeat;
+}
+
+.custom .dpad{
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .face{
+    background url(Face-Dpaddpad_b-w.png);
+    position absolute;
+}
+
+.custom .face.right.pressed{
+    background url(Face-DpadRIGHT_b-w.png); 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .face.left.pressed{
+    background url(Face-DpadLEFT_b-w.png); 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .face.up.pressed{
+    background url(Face-DpadUP_b-w.png); 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .face.down.pressed{ 
+    background url(Face-DpadDOWN_b-w.png); 
+    height 1080px;
+    width 1440px;
+    background-repeatno-repeat;
+}
+
+.custom .touchpad.pressed{
+    positionabsolute;
+    height 1080px;
+    width 1440px;
+    background url(Buttonstouchpad_b-w.png);
+    background-repeatno-repeat;
+}
+
+END PS5 Controller Styling
