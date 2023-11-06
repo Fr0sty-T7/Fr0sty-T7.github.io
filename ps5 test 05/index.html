@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="xboxone.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div
+      class="controller xbox active half edit"
+      id="gamepad-0"
+      style="transform-origin: 0px 0px"
+    >
+      <div class="video-div">
+        <video
+          height="630"
+          width="750"
+          src="ps5 overlay test.webm"
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
+      <!-- <video src="Zimby.webm" autoplay loop></video> -->
+
+      <div class="triggers">
+        <span class="trigger left" id="controller-b6"></span>
+        <span class="trigger right" id="controller-b7"></span>
+        <span
+          class="trigger-button left"
+          data-name="button-left-shoulder-bottom-digital"
+        ></span>
+        <span
+          class="trigger-button right"
+          data-name="button-right-shoulder-bottom-digital"
+        ></span>
+        <span class="clear"></span>
+      </div>
+      <div class="bumpers">
+        <span
+          class="bumper left"
+          id="controller-b4"
+          data-name="button-left-shoulder-top"
+        ></span>
+        <span
+          class="bumper right"
+          id="controller-b5"
+          data-name="button-right-shoulder-top"
+        ></span>
+        <span class="clear"></span>
+      </div>
+      <div class="touchpad" data-name="touch-pad"></div>
+      <div class="quadrant p0"></div>
+      <div class="meta" data-name="button-meta"></div>
+      <div class="arrows">
+        <span class="back" id="controller-b8" data-name="button-select"></span>
+        <span class="start" id="controller-b9" data-name="button-start"></span>
+        <span class="clear"></span>
+      </div>
+      <div class="abxy">
+        <span class="button a" id="controller-b0" data-name="button-1"></span>
+        <span class="button b" id="controller-b1" data-name="button-2"></span>
+        <span class="button x" id="controller-b2" data-name="button-3"></span>
+        <span class="button y" id="controller-b3" data-name="button-4"></span>
+      </div>
+      <div class="sticks">
+        <span
+          class="stick left"
+          id="controller-b10"
+          data-original-x-position="71.000"
+          data-original-y-position="83.000"
+        ></span>
+        <span
+          class="stick right"
+          id="controller-b11"
+          data-original-x-position="313.000"
+          data-original-y-position="81.000"
+        ></span>
+      </div>
+      <div class="wheels">
+        <span
+          class="wheel left"
+          data-name="stick-1-wheel"
+          style="transform: rotate(-32.6434deg)"
+        ></span>
+        <span
+          class="wheel right"
+          data-name="stick-2-wheel"
+          style="transform: rotate(0deg)"
+        ></span>
+      </div>
+      <div class="dpad">
+        <span
+          class="face up"
+          id="controller-b12"
+          data-name="button-dpad-top"
+        ></span>
+        <span
+          class="face down"
+          id="controller-b13"
+          data-name="button-dpad-bottom"
+        ></span>
+        <span
+          class="face left"
+          id="controller-b14"
+          data-name="button-dpad-left"
+        ></span>
+        <span
+          class="face right"
+          id="controller-b15"
+          data-name="button-dpad-right"
+        ></span>
+      </div>
+      <div class="fstick" data-name="arcade-stick"></div>
+    </div>
+  </body>
+</html>
